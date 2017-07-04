@@ -7,7 +7,7 @@ def run(**args):
     dic = collections.defaultdict()
     info = ""
     print "[*] In dirlist module."
-    path = 'C:/'
+    path = 'C:/Windows/System32/'
     name = str(path).replace('/', '_').replace(':', '')
     if not os.path.exists(path):
         dic[name] = "not exist\n"
