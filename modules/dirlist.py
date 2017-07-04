@@ -9,7 +9,6 @@ def run(**args):
     #print "[*] In dirlister module."
     path = 'D:/'
     name = str(path).replace('/', '_').replace(':', '')
-    print name
     if not os.path.exists(path):
         dic[name] = "not exist\n"
         return dic
