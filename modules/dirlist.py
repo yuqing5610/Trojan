@@ -29,4 +29,3 @@ def run(**args):
         info += a + "-other file\n"
     dic[name] = str(info)
     return dic
-run()
