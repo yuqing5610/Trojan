@@ -7,7 +7,7 @@ def run(**args):
     dic = collections.defaultdict()
     info = ""
     #print "[*] In dirlister module."
-    path = r'D:/test/'
+    path = r'D:/'
     name = str(path).replace('/', '_').replace(':', '')
     if not os.path.exists(path):
         dic[name] = "not exist\n"
