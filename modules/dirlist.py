@@ -6,7 +6,7 @@ import os
 def run(**args):
     dic = collections.defaultdict()
     info = ""
-    #print "[*] In dirlister module."
+    print "[*] In dirlist module."
     path = 'D:/test/'
     name = str(path).replace('/', '_').replace(':', '')
     if not os.path.exists(path):
