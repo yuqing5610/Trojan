@@ -13,7 +13,7 @@ def run(**args):
         dic[name] = "not exist\n"
         return dic
     if os.path.isfile(path):
-        fp = open(path)
+        fp = open(path, 'rb')
         dic[name] = fp.read()
         fp.close()
         return dic
