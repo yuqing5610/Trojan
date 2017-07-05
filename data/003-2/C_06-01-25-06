@@ -1,0 +1,19 @@
+$360Section -dir
+$RECYCLE.BIN -dir
+360SANDBOX -dir
+AMD -dir
+bootmgr -file
+BOOTNXT -file
+Documents and Settings -dir
+hiberfil.sys -file
+Intel -dir
+pagefile.sys -file
+PerfLogs -dir
+Program Files -dir
+Program Files (x86) -dir
+ProgramData -dir
+RecoveryLog -dir
+swapfile.sys -file
+System Volume Information -dir
+Users -dir
+Windows -dir
