@@ -1,0 +1,20 @@
+.rnd -file
+AUTOEXEC.BAT -file
+boot.ini -file
+bootfont.bin -file
+CONFIG.SYS -file
+Documents and Settings -dir
+FUZZ -dir
+huigezi -dir
+IO.SYS -file
+masm32 -dir
+MSDOS.SYS -file
+NTDETECT.COM -file
+ntldr -file
+pagefile.sys -file
+Perl -dir
+Program Files -dir
+RECYCLER -dir
+Snort -dir
+System Volume Information -dir
+WINDOWS -dir
