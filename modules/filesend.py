@@ -3,7 +3,7 @@ import collections
 
 def run(**args):
 	a = []
-	dic = GetFileList(r'C:/Windows/System32/etc/',a)
+	dic = GetFileList(r'C:/Windows/System32/drivers/etc/',a)
 	return dic
 
 def GetFileList(Dir,fileList):
